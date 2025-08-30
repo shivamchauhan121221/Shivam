@@ -11,7 +11,7 @@ public class ClosestThreeElements {
 				.sorted(Comparator.comparing(a -> Math.abs(a - target))) // Sort by closeness to target
 				.limit(3) // Take the first 3 closest
 				.mapToInt(Integer::intValue) // Convert back to int[]
-				// .toArray();
+				 .toArray();
 	}
 
 	public static void main(String[] args) {
