@@ -15,6 +15,6 @@ public class CountFruits {
 	public static void main(String[] args) {
 		List<String> list = Arrays.asList("Apple", "banana", "apple", "orange", "banana", "apple");
 
-		System.out.println(countFruits(list));
+		System.out.println("countFruit"+countFruits(list));
 	}
 }
