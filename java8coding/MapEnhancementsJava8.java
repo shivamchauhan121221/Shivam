@@ -22,7 +22,7 @@ public class MapEnhancementsJava8 {
 
 		// 4. remove(key, value)
 		boolean removed = map.remove("three", "3");
-		System.out.println("Removed 'three': " + removed);
+		System.out.println(" Data Removed 'three': " + removed);
 
 		// 5. replace(key, value)
 		map.replace("two", "22");
